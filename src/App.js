@@ -22,6 +22,7 @@ function App() {
         <Route path='/dashbord' element={<Dashbord />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/about' element={<About />} />
+        <Route path='*' element={<Notfound />} />
       </Routes>
     </div>
   );

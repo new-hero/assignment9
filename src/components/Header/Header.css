@@ -1,0 +1,10 @@
+.nav-item {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 28px;
+    color: black;
+}
+
+.nav-item:hover {
+    color: orange;
+}
