@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: salmon;
+    font-size: 56px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: indianred;
+}
+
+img {
+    width: 60%;
+}
