@@ -11,8 +11,8 @@ const Blogs = () => {
             <br />
             <h2> what is inline, inlineblock, block element?</h2>
             <p> Inline element: Inline element is not start from a newline always start from one by one on the basics of alignment. height and width is not set . it is the generic behavior.
-                Inline-block element: Inline-block element is not start from a newline always start from one by one on the basics of alignment. height and width is set but dont move they can take height and width but seat on the same place  . it is the generic behavior.
-                Block element: Block element is start from a newline always start from new line on the basics of alignment. height and width is set but dont move they can take height and width from a new line. it is the generic behavior.
+                <br /> Inline-block element: Inline-block element is not start from a newline always start from one by one on the basics of alignment. height and width is set but dont move they can take height and width but seat on the same place  . it is the generic behavior.
+                <br /> Block element: Block element is start from a newline always start from new line on the basics of alignment. height and width is set but dont move they can take height and width from a new line. it is the generic behavior.
 
             </p>
         </div>
