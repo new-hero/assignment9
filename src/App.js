@@ -8,6 +8,7 @@ import Dashbord from './components/Dashbord/Dashbord';
 import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import Notfound from './components/Notffound/Notfound';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='*' element={<Notfound />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
