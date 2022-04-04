@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
 import useReviews from '../Hooks/review';
 import Review from '../Review/Review';
-import Reviews from '../Reviews/Reviews';
 import './Home.css'
 
 
 const Home = () => {
-    const [review, setReview] = useReviews()
+    const [review] = useReviews()
     const shortReview = review.slice(0, 3)
     return (
         <div>
