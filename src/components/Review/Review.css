@@ -1,0 +1,14 @@
+p {
+    font-size: 22px;
+}
+
+.personeImg {
+    width: 80px !important;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.card {
+    margin: 30px;
+    padding: 30px;
+}

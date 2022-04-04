@@ -7,8 +7,8 @@ const Notfound = () => {
         <div>
             <h1 className='notfoundheading'>404</h1>
             <h1 className='notfoundheading'>Oppps Data Not Found !!!</h1>
-            <h3>Please go to Home page</h3>
-            <Link className='homebtn' to='/'>Home</Link>
+            <img src="images/404.png" alt="" />
+
         </div>
     );
 };
